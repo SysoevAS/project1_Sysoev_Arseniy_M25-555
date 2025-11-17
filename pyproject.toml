@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "project1-sysoev-arseniy-m25-555"
-version = "project1_Sysoev_Arseniy_M25-555"
+version = "3.12.3"
 description = "1"
 authors = ["Sysoev Asreniy"]
 packages = [
@@ -10,7 +10,7 @@ license = "1"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "1"
+python = "3.12.3"
 
 
 [build-system]
