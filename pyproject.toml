@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "project1-sysoev-arseniy-m25-555"
+version = "project1_Sysoev_Arseniy_M25-555"
+description = "1"
+authors = ["Sysoev Asreniy"]
+license = "1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
