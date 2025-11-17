@@ -1,4 +1,17 @@
+# Виртуальное окружение
 .venv/
+venv/
+
+# Сборки
 dist/
+build/
+
+# Кэш байткода
 __pycache__/
 *.pyc
+
+# Разное IDE
+.idea/
+.vscode/
+*.swp
+*.swo

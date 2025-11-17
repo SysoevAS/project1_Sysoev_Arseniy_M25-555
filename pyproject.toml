@@ -4,18 +4,27 @@ version = "3.12.3"
 description = "1"
 authors = ["Sysoev Asreniy"]
 packages = [
-    { include = "labyrinth_game" },
+  { include = "labyrinth_game" },
 ]
-license = "1"
-readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.12.3"
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.0"
 
 [tool.poetry.scripts]
 project = "labyrinth_game.main:main"
 
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+exclude = ["venv", ".venv", "dist", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []
