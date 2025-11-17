@@ -3,6 +3,9 @@ name = "project1-sysoev-arseniy-m25-555"
 version = "project1_Sysoev_Arseniy_M25-555"
 description = "1"
 authors = ["Sysoev Asreniy"]
+packages = [
+    { include = "labyrinth_game" },
+]
 license = "1"
 readme = "README.md"
 
